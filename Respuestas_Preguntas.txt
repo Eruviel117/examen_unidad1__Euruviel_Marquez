@@ -1,0 +1,18 @@
+1.Dos diferencias entre REST y GraphQL.
+la diferencia principal es que en REST los endpoint ya tiene definido que cual es la información que te van a entregar, en cambio en GraphQL tu decides que información quiere pedir 
+otra diferencia seria la estructura de la y la cantidad de los endpoint, en REST pueden ser muchos endpoint y en GraphQL solo uno 
+
+2.Una situación en la que conviene cada uno.
+
+REST conviene mas en aplicaciones sencillas y cuando las solicitudes de información no son tan grandes 
+y 
+GraphQL: para cuando necesitas información especifica o cuando la cantidad de solicitudes de información son demasiadas 
+
+3.La diferencia entre imagen y contenedor, y qué papel tiene el Dockerfile.
+la imagen es en donde se define el código, las librerías y todo lo necesario para que la aplicación funcione y el contendor es la imagen pero ya en ejecución, la aplicación ya funcionando, y el Dockerfile son las instrucciones para construir la imagen 
+
+4.Para qué sirve Docker Compose y qué significa cada 8000 en 8000:8000.
+sirve para conectar las diferentes parte que puede tener una aplicación como unir la base de datos que este en otro contenedor a la aplicación etc, y el 8000:8000 son los puertos en los que corre la aplicación de un lado corresponde al puerto del anfitrión el izquierdo y el derecho es el del contenedor 
+
+5.Por qué usar MySQL y no una lista, y qué identifica la llave primaria.
+utilizar MySQL sirve par ala persistencia de datos ya que utilizar listas puedes ser muy difícil de mantener cuando la información es demasiada y por que esta se borra cuando el sistema se apaga, por otra parte la llave primaria nos sirve para darle un identificador único a cada información y evitar datos duplicados o confundir información.
